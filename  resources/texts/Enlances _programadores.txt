@@ -1,0 +1,3 @@
+Codigo Limpio : https://github.com/ryanmcdermott/clean-code-javascript
+
+Analisis, Diseño e Implementacion de Algoritmos: http://fcasua.contad.unam.mx/apuntes/interiores/docs/20181/informatica/1/LI_1164_06097_A_Analisis_Diseno_Implantacion_Algoritmos_Plan2016.pdf
