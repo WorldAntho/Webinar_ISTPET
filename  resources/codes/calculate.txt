@@ -1,0 +1,5 @@
+const calcularComisión = (ventas) => 
+    ventas
+        .filter(venta => venta.monto > 1000)
+        .map(venta => venta.monto * 0.05)
+        .reduce((total, comisión) => total + comisión, 0)

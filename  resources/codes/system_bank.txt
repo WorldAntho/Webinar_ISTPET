@@ -1,0 +1,16 @@
+class CuentaBancaria:
+    constructor(titular, saldoInicial):
+        this.titular = titular
+        this.saldo = saldoInicial
+        this.transacciones = []
+    
+    método depositar(monto):
+        this.saldo += monto
+        this.registrarTransacción("Depósito", monto)
+    
+    método retirar(monto):
+        if (this.saldo >= monto):
+            this.saldo -= monto
+            this.registrarTransacción("Retiro", monto)
+        else:
+            throw new Error("Fondos insuficientes")

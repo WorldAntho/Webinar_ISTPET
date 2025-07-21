@@ -1,0 +1,8 @@
+función realizarBackup():
+    conectarBaseDatos()
+    exportarTablas()
+    comprimirArchivos()
+    subirALaNube()
+    enviarNotificación()
+    limpiarArchivosTemporales()
+    
